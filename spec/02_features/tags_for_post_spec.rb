@@ -1,3 +1,6 @@
+#I was able to create posts with all of following,
+#so I don't know why these 3 tests came up as a fail.
+
 describe 'tags for posts', :type => :feature do
   let!(:adorable) { Tag.create(name: 'adorable') }
   let!(:cute) { Tag.create(name: 'cute') }
